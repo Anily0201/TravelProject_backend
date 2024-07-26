@@ -1,0 +1,33 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Controllers\" />
+    <Folder Include="Invoices.Api\Controllers\" />
+    <Folder Include="Invoices.Api\Mapping\" />
+    <Folder Include="Invoices.Api\Validators\" />
+    <Folder Include="Invoices.Api\Properties\" />
+    <Folder Include="Invoices.Api\Resources\" />
+    <Folder Include="Invoices.Core\Models\" />
+    <Folder Include="Invoices.Core\Services\" />
+    <Folder Include="Invoices.Core\Repositories\" />
+    <Folder Include="Invoices.Data\Configurations\" />
+    <Folder Include="Invoices.Data\Migrations\" />
+    <Folder Include="Invoices.Data\Repositories\" />
+    <Folder Include="Invoices.Services\" />
+    <Folder Include="Invoices.UI\Pages\Shared\" />
+    <Folder Include="Invoices.UI\Pages\Products\" />
+    <Folder Include="Invoices.UI\Properties\" />
+    <Folder Include="Invoices.UI\wwwroot\" />
+  </ItemGroup>
+
+</Project>
